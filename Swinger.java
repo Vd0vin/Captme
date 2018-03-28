@@ -11,7 +11,7 @@ import java.nio.file.*;
 	 public static void main(String... args)
 	 {
 		 Swinger swinger1 = new Swinger();
-		 System.out.println(swinger1.pathify(horndog.path));
+		 System.out.println(swinger1.pathify(swinger1.path));
 		
 	 }
 	 String pathify(String path)
